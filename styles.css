@@ -13,8 +13,24 @@ body{
     padding: 25px 25px;
     gap: 20px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055);
-    img{
-      width: 100%;
-    }
   }
+@media  (max-widht: 756px){
+  .card {
+    display: none;
+  }
+     
+}
+@media  (max-widht: 756px){
+  img {
+    display: none;
+  }
+     
+}
+@media  (max-widht: 756px){
+  body {
+    display: none;
+  }
+     
+}
+
 
